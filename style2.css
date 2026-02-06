@@ -1,0 +1,97 @@
+body{
+    background-color: #deb887;
+    border: 5px dotted gold;
+}
+
+h1{
+    color: aliceblue;
+    text-decoration-line: underline;
+    /*text-allign is the new CSS property*/
+    text-align: center;
+    background-color: firebrick;
+    text-decoration-color: darkgoldenrod;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    font-weight: 200;
+
+}
+
+#rating{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    text-decoration-color: goldenrod;
+}
+
+#stars{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    text-decoration-color: goldenrod;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%; 
+
+}
+
+h2{
+    color: aliceblue;
+    text-decoration: underline;
+    text-decoration-color: goldenrod;
+}
+
+
+#personalreview{
+    width: 350px;
+    border: 3px solid red;
+    padding: 10px;
+    word-wrap: break-word;
+    text-decoration-line: underline;
+    text-decoration-color: darkgoldenrod;
+}
+
+#positives{
+    width: 400px;
+    border: 3px solid red;
+    padding: 15px;
+    word-wrap: break-word;
+}
+
+#positives2{
+    width: 400px;
+    border: 3px solid red;
+    padding: 15px;
+    word-wrap: break-word;
+}
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.text-block {
+  flex: 1;
+  padding: 10px;
+
+}
+
+#pictures{
+    text-align: center;
+}
+
+.image-container {
+    border: 3px solid red;
+  display: flex;
+  gap: 10px; 
+  justify-content: center; 
+}
+
+.image-container img {
+  width: 25%; 
+  height: auto;
+}
+
+
